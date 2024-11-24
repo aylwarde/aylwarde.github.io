@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+	
+body { 
+	font-family: letter-gothic-std, monospace;
+	background-color: #f2f2f2; /*light gray */
+	color: #414141; /* dark gray */
+	padding: 50px;
+}
+
+h1 { 
+	color: pink;
+	padding-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: brown;
+}
+
+a:hover {
+	color: orange;
+}
+
+ul {
+
+	padding-bottom: 30px;
+}
+
+li {
+	display: inline;
+	padding-right: 20px;
+	padding-bottom: 30px;
+}
