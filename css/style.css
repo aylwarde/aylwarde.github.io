@@ -77,6 +77,8 @@ a:hover {
     float: none;
     display: block;
     margin: 0 auto 20px auto;
+    top: 0;
+    position: static;    
   }
 
   .card {
