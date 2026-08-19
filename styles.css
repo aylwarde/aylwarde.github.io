@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  color: #222;
+  background: #f8fdff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+a {
+  color: #002766;
+  
+}
+
+a:hover {
+  color: #000;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  padding: 24px 0 14px;
+  border-bottom: 1px solid #bbb;
+}
+
+.header-inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.site-name {
+  color: #222;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+.site-nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+h1,
+h2 {
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+.intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 36px 0 24px;
+}
+
+.intro h1 {
+  margin: 0 0 18px;
+}
+
+.intro p {
+  margin: 0 0 14px;
+}
+
+.intro-links {
+  margin-top: 18px;
+}
+
+.profile-photo {
+  width: 225px;
+  height: auto;
+  margin-top: 48px;
+}
+
+.page-heading {
+  padding: 32px 0 18px;
+}
+
+.page-heading h1 {
+  margin: 0 0 10px;
+}
+
+.page-heading p {
+  margin: 0;
+}
+
+.section {
+  padding: 22px 0;
+  border-top: 1px solid #ccc;
+}
+
+.section h2 {
+  margin: 0 0 14px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.item-date,
+.item-meta,
+.event-meta {
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.88rem;
+}
+
+.item-title,
+.item-meta {
+  margin: 0;
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.event {
+  margin-bottom: 26px;
+}
+
+.event h2,
+.event p {
+  margin: 0 0 7px;
+}
+
+.site-footer {
+  margin-top: 24px;
+  padding: 18px 0 24px;
+  border-top: 1px solid #bbb;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+@media (max-width: 620px) {
+  .header-inner,
+  .intro,
+  .footer-inner {
+    display: block;
+  }
+
+  .site-nav {
+    margin-top: 8px;
+  }
+
+  .profile-photo {
+    width: 120px;
+    margin-top: 12px;
+  }
+
+  .item {
+    display: block;
+  }
+}
